@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC4B92DA2941889D003B682D /* Geta_IngestorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4B92D92941889D003B682D /* Geta_IngestorApp.swift */; };
+		AC4B92DC2941889D003B682D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4B92DB2941889D003B682D /* ContentView.swift */; };
+		AC4B92DE2941889E003B682D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4B92DD2941889E003B682D /* Assets.xcassets */; };
+		AC4B92E12941889E003B682D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4B92E02941889E003B682D /* Preview Assets.xcassets */; };
+		AC4B92EC2941889E003B682D /* Geta_IngestorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4B92EB2941889E003B682D /* Geta_IngestorTests.swift */; };
+		AC4B92F62941889E003B682D /* Geta_IngestorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4B92F52941889E003B682D /* Geta_IngestorUITests.swift */; };
+		AC4B92F82941889E003B682D /* Geta_IngestorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4B92F72941889E003B682D /* Geta_IngestorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC4B92E82941889E003B682D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC4B92CE2941889D003B682D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4B92D52941889D003B682D;
+			remoteInfo = "Geta-Ingestor";
+		};
+		AC4B92F22941889E003B682D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC4B92CE2941889D003B682D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4B92D52941889D003B682D;
+			remoteInfo = "Geta-Ingestor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC4B92D62941889D003B682D /* Geta-Ingestor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geta-Ingestor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4B92D92941889D003B682D /* Geta_IngestorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geta_IngestorApp.swift; sourceTree = "<group>"; };
+		AC4B92DB2941889D003B682D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC4B92DD2941889E003B682D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC4B92E02941889E003B682D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC4B92E22941889E003B682D /* Geta_Ingestor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Geta_Ingestor.entitlements; sourceTree = "<group>"; };
+		AC4B92E72941889E003B682D /* Geta-IngestorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Geta-IngestorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4B92EB2941889E003B682D /* Geta_IngestorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geta_IngestorTests.swift; sourceTree = "<group>"; };
+		AC4B92F12941889E003B682D /* Geta-IngestorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Geta-IngestorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4B92F52941889E003B682D /* Geta_IngestorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geta_IngestorUITests.swift; sourceTree = "<group>"; };
+		AC4B92F72941889E003B682D /* Geta_IngestorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geta_IngestorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC4B92D32941889D003B682D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4B92E42941889E003B682D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4B92EE2941889E003B682D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC4B92CD2941889D003B682D = {
+			isa = PBXGroup;
+			children = (
+				AC4B92D82941889D003B682D /* Geta-Ingestor */,
+				AC4B92EA2941889E003B682D /* Geta-IngestorTests */,
+				AC4B92F42941889E003B682D /* Geta-IngestorUITests */,
+				AC4B92D72941889D003B682D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC4B92D72941889D003B682D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC4B92D62941889D003B682D /* Geta-Ingestor.app */,
+				AC4B92E72941889E003B682D /* Geta-IngestorTests.xctest */,
+				AC4B92F12941889E003B682D /* Geta-IngestorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC4B92D82941889D003B682D /* Geta-Ingestor */ = {
+			isa = PBXGroup;
+			children = (
+				AC4B92D92941889D003B682D /* Geta_IngestorApp.swift */,
+				AC4B92DB2941889D003B682D /* ContentView.swift */,
+				AC4B92DD2941889E003B682D /* Assets.xcassets */,
+				AC4B92E22941889E003B682D /* Geta_Ingestor.entitlements */,
+				AC4B92DF2941889E003B682D /* Preview Content */,
+			);
+			path = "Geta-Ingestor";
+			sourceTree = "<group>";
+		};
+		AC4B92DF2941889E003B682D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC4B92E02941889E003B682D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC4B92EA2941889E003B682D /* Geta-IngestorTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC4B92EB2941889E003B682D /* Geta_IngestorTests.swift */,
+			);
+			path = "Geta-IngestorTests";
+			sourceTree = "<group>";
+		};
+		AC4B92F42941889E003B682D /* Geta-IngestorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC4B92F52941889E003B682D /* Geta_IngestorUITests.swift */,
+				AC4B92F72941889E003B682D /* Geta_IngestorUITestsLaunchTests.swift */,
+			);
+			path = "Geta-IngestorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC4B92D52941889D003B682D /* Geta-Ingestor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4B92FB2941889E003B682D /* Build configuration list for PBXNativeTarget "Geta-Ingestor" */;
+			buildPhases = (
+				AC4B92D22941889D003B682D /* Sources */,
+				AC4B92D32941889D003B682D /* Frameworks */,
+				AC4B92D42941889D003B682D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Geta-Ingestor";
+			productName = "Geta-Ingestor";
+			productReference = AC4B92D62941889D003B682D /* Geta-Ingestor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC4B92E62941889E003B682D /* Geta-IngestorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4B92FE2941889E003B682D /* Build configuration list for PBXNativeTarget "Geta-IngestorTests" */;
+			buildPhases = (
+				AC4B92E32941889E003B682D /* Sources */,
+				AC4B92E42941889E003B682D /* Frameworks */,
+				AC4B92E52941889E003B682D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC4B92E92941889E003B682D /* PBXTargetDependency */,
+			);
+			name = "Geta-IngestorTests";
+			productName = "Geta-IngestorTests";
+			productReference = AC4B92E72941889E003B682D /* Geta-IngestorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC4B92F02941889E003B682D /* Geta-IngestorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4B93012941889E003B682D /* Build configuration list for PBXNativeTarget "Geta-IngestorUITests" */;
+			buildPhases = (
+				AC4B92ED2941889E003B682D /* Sources */,
+				AC4B92EE2941889E003B682D /* Frameworks */,
+				AC4B92EF2941889E003B682D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC4B92F32941889E003B682D /* PBXTargetDependency */,
+			);
+			name = "Geta-IngestorUITests";
+			productName = "Geta-IngestorUITests";
+			productReference = AC4B92F12941889E003B682D /* Geta-IngestorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC4B92CE2941889D003B682D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					AC4B92D52941889D003B682D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					AC4B92E62941889E003B682D = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AC4B92D52941889D003B682D;
+					};
+					AC4B92F02941889E003B682D = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AC4B92D52941889D003B682D;
+					};
+				};
+			};
+			buildConfigurationList = AC4B92D12941889D003B682D /* Build configuration list for PBXProject "Geta-Ingestor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC4B92CD2941889D003B682D;
+			productRefGroup = AC4B92D72941889D003B682D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC4B92D52941889D003B682D /* Geta-Ingestor */,
+				AC4B92E62941889E003B682D /* Geta-IngestorTests */,
+				AC4B92F02941889E003B682D /* Geta-IngestorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC4B92D42941889D003B682D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4B92E12941889E003B682D /* Preview Assets.xcassets in Resources */,
+				AC4B92DE2941889E003B682D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4B92E52941889E003B682D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4B92EF2941889E003B682D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC4B92D22941889D003B682D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4B92DC2941889D003B682D /* ContentView.swift in Sources */,
+				AC4B92DA2941889D003B682D /* Geta_IngestorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4B92E32941889E003B682D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4B92EC2941889E003B682D /* Geta_IngestorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4B92ED2941889E003B682D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4B92F82941889E003B682D /* Geta_IngestorUITestsLaunchTests.swift in Sources */,
+				AC4B92F62941889E003B682D /* Geta_IngestorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC4B92E92941889E003B682D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4B92D52941889D003B682D /* Geta-Ingestor */;
+			targetProxy = AC4B92E82941889E003B682D /* PBXContainerItemProxy */;
+		};
+		AC4B92F32941889E003B682D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4B92D52941889D003B682D /* Geta-Ingestor */;
+			targetProxy = AC4B92F22941889E003B682D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC4B92F92941889E003B682D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC4B92FA2941889E003B682D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AC4B92FC2941889E003B682D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Geta-Ingestor/Geta_Ingestor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Geta-Ingestor/Preview Content\"";
+				DEVELOPMENT_TEAM = BM8U9T4CJ6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dacharycarey.Geta-Ingestor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AC4B92FD2941889E003B682D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Geta-Ingestor/Geta_Ingestor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Geta-Ingestor/Preview Content\"";
+				DEVELOPMENT_TEAM = BM8U9T4CJ6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dacharycarey.Geta-Ingestor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AC4B92FF2941889E003B682D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BM8U9T4CJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dacharycarey.Geta-IngestorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geta-Ingestor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Geta-Ingestor";
+			};
+			name = Debug;
+		};
+		AC4B93002941889E003B682D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BM8U9T4CJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dacharycarey.Geta-IngestorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geta-Ingestor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Geta-Ingestor";
+			};
+			name = Release;
+		};
+		AC4B93022941889E003B682D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BM8U9T4CJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dacharycarey.Geta-IngestorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Geta-Ingestor";
+			};
+			name = Debug;
+		};
+		AC4B93032941889E003B682D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BM8U9T4CJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dacharycarey.Geta-IngestorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Geta-Ingestor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC4B92D12941889D003B682D /* Build configuration list for PBXProject "Geta-Ingestor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4B92F92941889E003B682D /* Debug */,
+				AC4B92FA2941889E003B682D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4B92FB2941889E003B682D /* Build configuration list for PBXNativeTarget "Geta-Ingestor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4B92FC2941889E003B682D /* Debug */,
+				AC4B92FD2941889E003B682D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4B92FE2941889E003B682D /* Build configuration list for PBXNativeTarget "Geta-IngestorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4B92FF2941889E003B682D /* Debug */,
+				AC4B93002941889E003B682D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4B93012941889E003B682D /* Build configuration list for PBXNativeTarget "Geta-IngestorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4B93022941889E003B682D /* Debug */,
+				AC4B93032941889E003B682D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC4B92CE2941889D003B682D /* Project object */;
+}
