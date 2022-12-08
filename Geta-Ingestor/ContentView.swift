@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
-  @State var filename = "Filename"
+    @State var filename = "Filename"
     @State var fileUrl: URL?
-  @State var showFileChooser = false
+    @State var showFileChooser = false
 
   var body: some View {
     HStack {
@@ -24,7 +24,11 @@ struct ContentView: View {
             self.filename = panel.url?.lastPathComponent ?? "<none>"
             print("Filename: \(filename)")
             self.fileUrl = panel.url
-            print("File URL: \(fileUrl)")
+            if let urlExists = fileUrl {
+                print("File URL: \(urlExists)")
+                // experimentWithCSV()
+                decodeCSV(thisFilepath: urlExists)
+            }
         }
       }
     }

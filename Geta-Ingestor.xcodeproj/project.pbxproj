@@ -14,6 +14,11 @@
 		AC4B92EC2941889E003B682D /* Geta_IngestorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4B92EB2941889E003B682D /* Geta_IngestorTests.swift */; };
 		AC4B92F62941889E003B682D /* Geta_IngestorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4B92F52941889E003B682D /* Geta_IngestorUITests.swift */; };
 		AC4B92F82941889E003B682D /* Geta_IngestorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4B92F72941889E003B682D /* Geta_IngestorUITestsLaunchTests.swift */; };
+		AC4B9343294190AC003B682D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4B9342294190AC003B682D /* Models.swift */; };
+		AC4B9345294192DC003B682D /* ParseCSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4B9344294192DC003B682D /* ParseCSV.swift */; };
+		AC4B93482941931D003B682D /* CodableCSV in Frameworks */ = {isa = PBXBuildFile; productRef = AC4B93472941931D003B682D /* CodableCSV */; };
+		AC4B934A2941A9F2003B682D /* SanitizeEnumInputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4B93492941A9F2003B682D /* SanitizeEnumInputs.swift */; };
+		AC4B934C2941AAAD003B682D /* SeparateItemsByType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4B934B2941AAAD003B682D /* SeparateItemsByType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,10 @@
 		AC4B92F12941889E003B682D /* Geta-IngestorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Geta-IngestorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4B92F52941889E003B682D /* Geta_IngestorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geta_IngestorUITests.swift; sourceTree = "<group>"; };
 		AC4B92F72941889E003B682D /* Geta_IngestorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geta_IngestorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC4B9342294190AC003B682D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AC4B9344294192DC003B682D /* ParseCSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseCSV.swift; sourceTree = "<group>"; };
+		AC4B93492941A9F2003B682D /* SanitizeEnumInputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanitizeEnumInputs.swift; sourceTree = "<group>"; };
+		AC4B934B2941AAAD003B682D /* SeparateItemsByType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparateItemsByType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4B93482941931D003B682D /* CodableCSV in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +110,10 @@
 				AC4B92DD2941889E003B682D /* Assets.xcassets */,
 				AC4B92E22941889E003B682D /* Geta_Ingestor.entitlements */,
 				AC4B92DF2941889E003B682D /* Preview Content */,
+				AC4B9342294190AC003B682D /* Models.swift */,
+				AC4B9344294192DC003B682D /* ParseCSV.swift */,
+				AC4B93492941A9F2003B682D /* SanitizeEnumInputs.swift */,
+				AC4B934B2941AAAD003B682D /* SeparateItemsByType.swift */,
 			);
 			path = "Geta-Ingestor";
 			sourceTree = "<group>";
@@ -145,6 +159,9 @@
 			dependencies = (
 			);
 			name = "Geta-Ingestor";
+			packageProductDependencies = (
+				AC4B93472941931D003B682D /* CodableCSV */,
+			);
 			productName = "Geta-Ingestor";
 			productReference = AC4B92D62941889D003B682D /* Geta-Ingestor.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +234,9 @@
 				Base,
 			);
 			mainGroup = AC4B92CD2941889D003B682D;
+			packageReferences = (
+				AC4B93462941931D003B682D /* XCRemoteSwiftPackageReference "CodableCSV" */,
+			);
 			productRefGroup = AC4B92D72941889D003B682D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,7 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4B9345294192DC003B682D /* ParseCSV.swift in Sources */,
+				AC4B934A2941A9F2003B682D /* SanitizeEnumInputs.swift in Sources */,
+				AC4B9343294190AC003B682D /* Models.swift in Sources */,
 				AC4B92DC2941889D003B682D /* ContentView.swift in Sources */,
+				AC4B934C2941AAAD003B682D /* SeparateItemsByType.swift in Sources */,
 				AC4B92DA2941889D003B682D /* Geta_IngestorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -576,6 +600,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC4B93462941931D003B682D /* XCRemoteSwiftPackageReference "CodableCSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dehesa/CodableCSV.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC4B93472941931D003B682D /* CodableCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC4B93462941931D003B682D /* XCRemoteSwiftPackageReference "CodableCSV" */;
+			productName = CodableCSV;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AC4B92CE2941889D003B682D /* Project object */;
 }
