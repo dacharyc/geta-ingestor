@@ -8,19 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+  @State var filename = "Filename"
+    @State var fileUrl: URL?
+  @State var showFileChooser = false
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+  var body: some View {
+    HStack {
+      Text(filename)
+      Button("select File")
+      {
+        let panel = NSOpenPanel()
+        panel.allowsMultipleSelection = false
+        panel.canChooseDirectories = false
+        if panel.runModal() == .OK {
+            self.filename = panel.url?.lastPathComponent ?? "<none>"
+            print("Filename: \(filename)")
+            self.fileUrl = panel.url
+            print("File URL: \(fileUrl)")
+        }
+      }
     }
+    .frame(maxWidth: .infinity, maxHeight: .infinity)
+  }
 }
+//
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}
