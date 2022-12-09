@@ -19,6 +19,9 @@
 		AC4B93482941931D003B682D /* CodableCSV in Frameworks */ = {isa = PBXBuildFile; productRef = AC4B93472941931D003B682D /* CodableCSV */; };
 		AC4B934A2941A9F2003B682D /* SanitizeEnumInputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4B93492941A9F2003B682D /* SanitizeEnumInputs.swift */; };
 		AC4B934C2941AAAD003B682D /* SeparateItemsByType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4B934B2941AAAD003B682D /* SeparateItemsByType.swift */; };
+		AC6648AB2942EB6E00AE93E3 /* MapEnumValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6648AA2942EB6E00AE93E3 /* MapEnumValues.swift */; };
+		AC6648AD2942F19D00AE93E3 /* WriteToFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6648AC2942F19D00AE93E3 /* WriteToFile.swift */; };
+		AC6648B22942F92300AE93E3 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6648B12942F92300AE93E3 /* Storage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		AC4B9344294192DC003B682D /* ParseCSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseCSV.swift; sourceTree = "<group>"; };
 		AC4B93492941A9F2003B682D /* SanitizeEnumInputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanitizeEnumInputs.swift; sourceTree = "<group>"; };
 		AC4B934B2941AAAD003B682D /* SeparateItemsByType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparateItemsByType.swift; sourceTree = "<group>"; };
+		AC6648AA2942EB6E00AE93E3 /* MapEnumValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapEnumValues.swift; sourceTree = "<group>"; };
+		AC6648AC2942F19D00AE93E3 /* WriteToFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteToFile.swift; sourceTree = "<group>"; };
+		AC6648B12942F92300AE93E3 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,9 @@
 				AC4B9344294192DC003B682D /* ParseCSV.swift */,
 				AC4B93492941A9F2003B682D /* SanitizeEnumInputs.swift */,
 				AC4B934B2941AAAD003B682D /* SeparateItemsByType.swift */,
+				AC6648AA2942EB6E00AE93E3 /* MapEnumValues.swift */,
+				AC6648AC2942F19D00AE93E3 /* WriteToFile.swift */,
+				AC6648B12942F92300AE93E3 /* Storage.swift */,
 			);
 			path = "Geta-Ingestor";
 			sourceTree = "<group>";
@@ -281,9 +290,12 @@
 			files = (
 				AC4B9345294192DC003B682D /* ParseCSV.swift in Sources */,
 				AC4B934A2941A9F2003B682D /* SanitizeEnumInputs.swift in Sources */,
+				AC6648AD2942F19D00AE93E3 /* WriteToFile.swift in Sources */,
 				AC4B9343294190AC003B682D /* Models.swift in Sources */,
 				AC4B92DC2941889D003B682D /* ContentView.swift in Sources */,
+				AC6648B22942F92300AE93E3 /* Storage.swift in Sources */,
 				AC4B934C2941AAAD003B682D /* SeparateItemsByType.swift in Sources */,
+				AC6648AB2942EB6E00AE93E3 /* MapEnumValues.swift in Sources */,
 				AC4B92DA2941889D003B682D /* Geta_IngestorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

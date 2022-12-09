@@ -22,14 +22,13 @@ func decodeCSV(thisFilepath: URL) {
             case .success(let decodedData):
                 let numberOfInputItems = decodedData.count
                 print("Number of decoded ShopItemDecoderStructs: \(numberOfInputItems)")
-                let currencyUnitSanitizedShopItems = sanitizeCurrencyUnits(decodedShopItems: decodedData)
-                let numberOfCurrencyUnitSanitizedShopItems = currencyUnitSanitizedShopItems.count
-                if numberOfInputItems == numberOfCurrencyUnitSanitizedShopItems {
-                    print("Successfully sanitized the currency units for all \(numberOfInputItems) items")
-                    let sanitizedShopTypeInputs = sanitizeShopTypes(allshopItems: currencyUnitSanitizedShopItems)
-                    separateItemsByType(allShopItems: currencyUnitSanitizedShopItems)
+                let appropriateCaseShopItems = convertEnumsToAppropriateCase(decodedShopItems: decodedData)
+                let numberOfAppropriateCaseShopItems = appropriateCaseShopItems.count
+                if numberOfInputItems == numberOfAppropriateCaseShopItems {
+                    print("Successfully adjusted enum cases for all \(numberOfInputItems) items")
+                    convertDecoderStructsToShopItems(allShopItems: appropriateCaseShopItems)
                 } else {
-                    print("Failed to sanitize currency units for \(numberOfInputItems - numberOfCurrencyUnitSanitizedShopItems) items")
+                    print("Failed to adjust enum cases for \(numberOfInputItems - numberOfAppropriateCaseShopItems) items")
                 }
             }
         }

@@ -26,28 +26,36 @@ struct ShopItemDecoderStruct: Codable {
     }
 }
 
-struct ShopItem {
+struct ShopItem: Codable {
     var id: UUID
     var name: String
     var description: String
     var cost: Int
     var currencyUnit: CurrencyUnit
+    var shopType: ShopType
+    var businessAffluence: BusinessAffluence
 }
 
-enum CurrencyUnit: String {
+enum CurrencyUnit: String, Codable {
     case copperPieces = "CP"
     case silverPieces = "SP"
     case goldPieces = "GP"
     case platinumPieces = "PP"
 }
 
-enum BusinessAffluence: String {
+enum BusinessAffluence: String, Codable, CaseIterable {
     case poor = "Poor"
     case modest = "Modest"
     case affluent = "Affluent"
+    
+    enum ShortNames: String, Decodable {
+        case poor = "p"
+        case modest = "m"
+        case affluent = "a"
+    }
 }
 
-enum ShopType: String {
+enum ShopType: String, Codable {
     case armorsmith = "Armorsmith"
     case blacksmith = "Blacksmith"
     case booksAndSpells = "Books and Spells"
@@ -64,4 +72,23 @@ enum ShopType: String {
     case poisons = "Poisons"
     case potions = "Potions"
     case weaponry = "Weapons"
+    
+    enum ShortNames: String, CodingKey {
+        case armorsmith = "arm"
+        case blacksmith = "bla"
+        case booksAndSpells = "bas"
+        case bowyer = "bow"
+        case clothing = "clo"
+        case foodstuffs = "foo"
+        case gemsAndJewelry = "gaj"
+        case generalStore = "gs"
+        case herbs = "her"
+        case livestock = "liv"
+        case magicItems = "mi"
+        case magicWeaponsAndArmor = "mwa"
+        case petsAndSupplies = "pas"
+        case poisons = "poi"
+        case potions = "pot"
+        case weaponry = "wea"
+    }
 }
